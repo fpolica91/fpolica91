@@ -1,17 +1,5 @@
 ### Hi there 👋
 
-
-
-
-### Recent Acitivies ✨
-<center>
-<table>
-  <tr>
-      <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fpolica91&hide=html&layout=compact&theme=radical/></td>
-  </tr>  
-</table>
-</center>
-
 ### Technology Stack ⚙️ 💻 
  <img align="left" alt="Java" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" />
 <img align="left" alt="Scala" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scala/scala.png" />
