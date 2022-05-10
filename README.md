@@ -4,8 +4,11 @@ Hi 👋 My name is Fabricio Policarpo
 Full Stack Developer
 --------------------
 
-* 🌍  I'm based in Miami
-* ✉️  You can contact me at [fabriciopolicarpo0@gmail.com](mailto:fabriciopolicarpo0@gmail.com)
+* 🌍  I'm based in Miami
+* ✉️  You can contact me at [fabriciopolicarpo0@gmail.com](mailto:fabriciopolicarpo0@gmail.com)
+
+<a href="https://www.github.com/fpolica91" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/fpolica91?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 
 ### Skills
 
@@ -27,3 +30,10 @@ Full Stack Developer
 <a href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored.svg" width="36" height="36" alt="Flask" /></a>
 <a href="https://trufflesuite.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/truffle-colored.svg" width="36" height="36" alt="Truffle" /></a>
 </p>
+
+
+### Socials
+
+<p align="left"> <a href="https://www.github.com/fpolica91" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/fpolica/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="http://www.medium.com/@fabriciopolicarpo0" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a> <a href="https://www.stackoverflow.com/users/11968250/fabricio-policarpo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a></p>
+
+### Badges
