@@ -6,7 +6,7 @@ Automating baremetal deployments, managing networks, and building full-stack sys
 
 ---
 
-- 🌍 Based in Miami, open to remote
+- 🌍 Based in SoFlo, open to remote
 - 🛠️ Working at [Hydra Host](https://hydrahost.com)
 - 📬 Reach me: [fabriciopolicarpo0@gmail.com](mailto:fabriciopolicarpo0@gmail.com)
 
