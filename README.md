@@ -1,14 +1,16 @@
-Hi 👋 I'm Fabricio Policarpo
-============================
+# Hi 👋 I'm Fabricio Policarpo
 
-🚀 Senior Software & Infrastructure Engineer  
-Automating baremetal deployments, managing networks, and building full-stack systems at scale.
+### GPU Infrastructure Engineer — *firmware-to-fabric*
+
+I commission, validate, and automate **bare-metal GPU clusters** — from PXE boot and BMC/Redfish, through GPU burn-in and NCCL/InfiniBand validation, up to inference serving. The work most teams never get to: catching lemon nodes before they kill a training run, and debugging the firmware / PCIe / fabric-level failures that don't show up in any dashboard.
+
+`A100` · `H100` · `B200` · `RTX 5090`
 
 ---
 
-- 🌍 Based in SoFlo, open to remote
-- 🛠️ Working at [Hydra Host](https://hydrahost.com)
-- 📬 Reach me: [fabriciopolicarpo0@gmail.com](mailto:fabriciopolicarpo0@gmail.com)
+- 🌍 South Florida · remote
+- 🔧 GPU bare-metal lifecycle — provisioning → validation → networking → serving
+- 📬 [fabriciopolicarpo0@gmail.com](mailto:fabriciopolicarpo0@gmail.com)
 
 <a href="https://www.github.com/fpolica91" target="_blank" rel="noreferrer">
   <img src="https://img.shields.io/github/followers/fpolica91?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" />
@@ -16,36 +18,40 @@ Automating baremetal deployments, managing networks, and building full-stack sys
 
 ---
 
-### 🛠️ Tech Stack
+### What I do
 
-**Infra & DevOps**  
-PXE • iPXE • Redfish • IPMI • Terraform • Ansible • Linux • Netplan • Cloud-Init
+**GPU cluster commissioning & validation** — burn-in and acceptance suites (DCGM diag, gpu-burn, nccl-tests, sample training jobs), node health gating, lemon-node detection
 
-**Backend**  
-Python • Flask • Node.js • Express • NestJS • GraphQL • PostgreSQL • MongoDB
+**Bare-metal automation** — PXE / iPXE, Redfish / IPMI, Kea DHCP, NetBox, Ansible, cloud-init, Nomad — full lifecycle from rack to ready
 
-**Frontend**  
-React • TailwindCSS • TypeScript • JavaScript
+**Fabric & networking** — InfiniBand / RoCE, ConnectX-7, rail-optimized topology, NCCL tuning, the kind of OEM misconfigs that get blamed on "the network"
 
----
-
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
-<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="Node.js" /></a>
-<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a>
-<a href="https://graphql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg" width="36" height="36" alt="GraphQL" /></a>
-<a href="https://docs.nestjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" width="36" height="36" alt="NestJS" /></a>
-<a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
-<a href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored.svg" width="36" height="36" alt="Flask" /></a>
-</p>
+**Serving** — vLLM, fp8/fp16 config, multi-tenant GPU provisioning on idle compute
 
 ---
 
-### 🌐 Socials
+### Stack
+
+![Linux](https://img.shields.io/badge/Linux-1c1917?style=for-the-badge&logo=linux&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA%20CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-1c1917?style=for-the-badge&logo=ansible&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Nomad](https://img.shields.io/badge/Nomad-00CA8E?style=for-the-badge&logo=hashicorp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+*Also:* PXE/iPXE · Redfish/IPMI · Kea DHCP · NetBox · cloud-init · PostgreSQL · MongoDB · Node.js · NestJS · GraphQL · React · TypeScript
+
+---
+
+### Featured
+
+**[Chidori](https://github.com/fpolica91/chidori)** — GPU-over-IP platform. Remote GPU access over network fabric — low-level CUDA and systems work, TCP-tuned data path. A study in what it takes to move GPU workloads across the wire.
+
+📝 *Writing on GPU node burn-in, acceptance testing, and why LINPACK lies to you — in progress.*
+
+---
+
+### Find me
 
 <p align="left">
 <a href="https://www.github.com/fpolica91" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
